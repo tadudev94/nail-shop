@@ -1,36 +1,38 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import {
+  Inter,
+  Playfair_Display,
+  Cormorant_Garamond,
+  Oswald,
+  Roboto_Condensed,
+  Cinzel,
+  Open_Sans,
+  Fredoka,
+  Quicksand,
+  Lato
+} from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Toaster } from "sonner"
-import { CartProvider } from "@/lib/cart-context"
+import { siteConfig } from "@/config/site"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+// Define fonts
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
+const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
+const cormorant = Cormorant_Garamond({ weight: ["300", "400", "500", "600", "700"], subsets: ["latin"], variable: "--font-cormorant" })
+const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" })
+const robotoCondensed = Roboto_Condensed({ subsets: ["latin"], variable: "--font-roboto-condensed" })
+const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel" })
+const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-open-sans" })
+const fredoka = Fredoka({ subsets: ["latin"], variable: "--font-fredoka" })
+const quicksand = Quicksand({ subsets: ["latin"], variable: "--font-quicksand" })
+const lato = Lato({ weight: ["100", "300", "400", "700", "900"], subsets: ["latin"], variable: "--font-lato" })
 
 export const metadata: Metadata = {
-  title: "Bamboo Store - Sản phẩm tre tự nhiên",
-  description:
-    "Khám phá bộ sưu tập sản phẩm từ tre cao cấp, thân thiện với môi trường. Sống xanh, sống bền vững cùng Bamboo Store.",
+  title: siteConfig.name,
+  description: siteConfig.description,
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export default function RootLayout({
@@ -39,13 +41,23 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="vi">
-      <body className={`font-sans antialiased`}>
-        <CartProvider>
-          {children}
-          <Toaster position="top-center" richColors />
-          <Analytics />
-        </CartProvider>
+    <html lang="vi" suppressHydrationWarning>
+      <body className={`
+        ${inter.variable} 
+        ${playfair.variable} 
+        ${cormorant.variable} 
+        ${oswald.variable} 
+        ${robotoCondensed.variable} 
+        ${cinzel.variable} 
+        ${openSans.variable} 
+        ${fredoka.variable} 
+        ${quicksand.variable} 
+        ${lato.variable}
+        font-sans antialiased
+      `}>
+        {children}
+        <Toaster position="top-center" richColors />
+        <Analytics />
       </body>
     </html>
   )

@@ -1,0 +1,57 @@
+[
+    {
+        "category": "Chăm sóc móng",
+        "items": [
+            {
+                "name": "Cắt da tay/chân",
+                "price": "50.000đ",
+                "description": "Làm sạch da thừa, tạo form móng gọn gàng."
+            },
+            {
+                "name": "Sơn Gel trơn",
+                "price": "150.000đ",
+                "description": "Sơn gel cao cấp, bền màu 3-4 tuần, nhiều màu lựa chọn."
+            },
+            {
+                "name": "Sơn Gel mắt mèo",
+                "price": "200.000đ",
+                "description": "Hiệu ứng mắt mèo lấp lánh, sang trọng."
+            }
+        ]
+    },
+    {
+        "category": "Art & Design",
+        "items": [
+            {
+                "name": "Vẽ móng nghệ thuật",
+                "price": "Từ 20.000đ/ngón",
+                "description": "Vẽ hoa, hoạt hình, họa tiết theo yêu cầu."
+            },
+            {
+                "name": "Đính đá/Charm",
+                "price": "Từ 10.000đ/viên",
+                "description": "Đá sáng, charm nơ, bướm, gấu đa dạng."
+            },
+            {
+                "name": "Ẩn xà cừ/Hoa khô",
+                "price": "15.000đ/ngón",
+                "description": "Tạo độ sâu và vẻ đẹp tinh tế cho móng."
+            }
+        ]
+    },
+    {
+        "category": "Spa & Dưỡng",
+        "items": [
+            {
+                "name": "Chà gót chân",
+                "price": "150.000đ",
+                "description": "Loại bỏ da chết, giúp gót chân hồng hào, mềm mại."
+            },
+            {
+                "name": "Paraffin tay/chân",
+                "price": "200.000đ",
+                "description": "Ủ sáp nóng giúp mềm da, giảm đau khớp."
+            }
+        ]
+    }
+]

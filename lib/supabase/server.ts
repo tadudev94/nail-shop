@@ -1,23 +1,25 @@
-import { createServerClient } from "@supabase/ssr"
+import { type CookieOptions } from "@supabase/ssr"
 import { cookies } from "next/headers"
 
+// Stub function to prevent crash
 export async function createClient() {
   const cookieStore = await cookies()
 
-  return createServerClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!, {
-    cookies: {
-      getAll() {
-        return cookieStore.getAll()
-      },
-      setAll(cookiesToSet) {
-        try {
-          cookiesToSet.forEach(({ name, value, options }) => cookieStore.set(name, value, options))
-        } catch {
-          // The "setAll" method was called from a Server Component.
-          // This can be ignored if you have proxy refreshing
-          // user sessions.
-        }
-      },
-    },
-  })
+  // Return a dummy object or null since we removed Supabase
+  // If any code tries to use this, it might fail, but it won't crash on startup.
+  return {
+    from: () => ({
+      select: () => ({
+        eq: () => ({
+          single: () => ({ data: null, error: null }),
+          order: () => ({ data: [], error: null }),
+        }),
+        order: () => ({ data: [], error: null }),
+      })
+    }),
+    auth: {
+      getUser: () => Promise.resolve({ data: { user: null }, error: null }),
+      getSession: () => Promise.resolve({ data: { session: null }, error: null }),
+    }
+  }
 }

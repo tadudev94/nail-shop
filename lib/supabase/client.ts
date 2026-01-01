@@ -1,5 +1,16 @@
-import { createBrowserClient } from "@supabase/ssr"
-
+// Stub function
 export function createClient() {
-  return createBrowserClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!)
+  return {
+    from: () => ({
+      select: () => ({
+        eq: () => ({
+          single: () => ({ data: null, error: null }),
+        })
+      })
+    }),
+    auth: {
+      getUser: () => Promise.resolve({ data: { user: null }, error: null }),
+      onAuthStateChange: () => ({ data: { subscription: { unsubscribe: () => { } } } }),
+    }
+  }
 }

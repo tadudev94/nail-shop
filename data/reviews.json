@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Nguyễn Lan Anh",
+        "rating": 5,
+        "content": "Tiệm làm rất kỹ, nhân viên dễ thương. Mình làm bộ nail đính đá mà giữ được cả tháng không bong tróc.",
+        "date": "2 ngày trước"
+    },
+    {
+        "name": "Trần Thu Hà",
+        "rating": 5,
+        "content": "Không gian decor xinh xắn, sạch sẽ. Giá cả hợp lý so với chất lượng. Sẽ quay lại ủng hộ dài dài.",
+        "date": "1 tuần trước"
+    },
+    {
+        "name": "Hoàng Minh",
+        "rating": 4,
+        "content": "Dịch vụ chà gót chân rất phê, làm xong chân mềm như da em bé. Điểm trừ nhỏ là tiệm hơi đông vào cuối tuần nên phải đặt lịch trước.",
+        "date": "3 tuần trước"
+    }
+]

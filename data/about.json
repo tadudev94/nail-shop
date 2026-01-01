@@ -1,0 +1,19 @@
+{
+    "title": "Về Muse Nail & Spa",
+    "story": "Muse Nail & Spa được thành lập với niềm đam mê mang lại vẻ đẹp tinh tế và sự thư giãn tuyệt đối cho phái đẹp. Chúng tôi tin rằng, một bộ móng đẹp không chỉ là trang sức, mà còn là cách bạn yêu thương bản thân.",
+    "values": [
+        {
+            "title": "Chất lượng hàng đầu",
+            "description": "Sử dụng sơn và phụ liệu chính hãng, an toàn cho sức khỏe."
+        },
+        {
+            "title": "Vệ sinh tuyệt đối",
+            "description": "Dụng cụ được tiệt trùng kỹ càng trước khi sử dụng cho mỗi khách hàng."
+        },
+        {
+            "title": "Tận tâm phục vụ",
+            "description": "Đội ngũ kỹ thuật viên tay nghề cao, luôn lắng nghe và tư vấn tận tình."
+        }
+    ],
+    "image": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=1000"
+}
