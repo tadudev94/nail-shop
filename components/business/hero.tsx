@@ -37,10 +37,10 @@ export function Hero() {
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
                     <Button size="lg" className="h-14 px-8 text-lg rounded-full w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground border-2 border-primary" asChild>
-                        <Link href="#contact">Đặt bàn ngay</Link>
+                        <Link href="#contact">Liên Hệ Ngay</Link>
                     </Button>
                     <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-full w-full sm:w-auto bg-white/10 backdrop-blur-sm text-white border-white hover:bg-white/20 hover:text-white hover:border-white transition-colors" asChild>
-                        <Link href="#services">Xem menu</Link>
+                        <Link href="#services">Xem Dịch Vụ</Link>
                     </Button>
                 </div>
             </div>

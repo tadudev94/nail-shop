@@ -13,10 +13,12 @@ interface ServiceCategory {
     items: ServiceItem[]
 }
 
-export function ServicesGrid() {
-    const services = servicesData as ServiceCategory[]
+const services = servicesData as ServiceCategory[]
 
-    const title = siteConfig.theme === 'food' ? "Thực đơn hôm nay" : "Dịch vụ & Bảng giá"
+export function ServicesGrid() {
+    const title = siteConfig.theme === 'food' ? "Thực đơn hôm nay" :
+        siteConfig.theme === 'spa' ? "Dịch Vụ & Liệu Trình" :
+            "Dịch vụ & Bảng giá"
 
     return (
         <section id="services" className="py-20 md:py-32 bg-background">

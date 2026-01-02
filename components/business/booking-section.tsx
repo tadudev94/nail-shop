@@ -6,7 +6,7 @@ export function BookingSection() {
         <section id="contact" className="py-20 bg-primary/5">
             <div className="container px-4 mx-auto">
                 <div className="text-center mb-12 space-y-4">
-                    <h2 className="text-4xl font-bold font-heading">Đặt bàn & Giao hàng</h2>
+                    <h2 className="text-4xl font-bold font-heading">Địa chỉ & Liên hệ</h2>
                     <p className="text-xl text-muted-foreground">Ghé thăm hoặc liên hệ trực tiếp để được tư vấn tốt nhất</p>
                 </div>
 
