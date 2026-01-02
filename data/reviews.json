@@ -2,19 +2,31 @@
     {
         "name": "Nguyễn Lan Anh",
         "rating": 5,
-        "content": "Tiệm làm rất kỹ, nhân viên dễ thương. Mình làm bộ nail đính đá mà giữ được cả tháng không bong tróc.",
+        "content": "Quán làm món rất kỹ, đồ ăn luôn nóng hổi và nêm nếm vừa miệng. Mình ăn cơm tấm sườn bì chả, thịt mềm, đậm đà, ăn rất đã.",
         "date": "2 ngày trước"
     },
     {
         "name": "Trần Thu Hà",
         "rating": 5,
-        "content": "Không gian decor xinh xắn, sạch sẽ. Giá cả hợp lý so với chất lượng. Sẽ quay lại ủng hộ dài dài.",
+        "content": "Không gian quán gọn gàng, sạch sẽ, trang trí dễ thương. Giá cả hợp lý so với chất lượng. Các món cơm Hàn như cơm trộn và tokbokki ăn ổn áp.",
         "date": "1 tuần trước"
     },
     {
         "name": "Hoàng Minh",
         "rating": 4,
-        "content": "Dịch vụ chà gót chân rất phê, làm xong chân mềm như da em bé. Điểm trừ nhỏ là tiệm hơi đông vào cuối tuần nên phải đặt lịch trước.",
+        "content": "Món Hàn nấu khá chuẩn vị, phần ăn đầy đặn, kim chi ngon. Điểm trừ nhỏ là cuối tuần quán đông nên chờ món hơi lâu.",
         "date": "3 tuần trước"
+    },
+    {
+        "name": "Lê Thảo Vy",
+        "rating": 5,
+        "content": "Cơm tấm ở đây rất ngon, sườn nướng thơm, không bị khô. Nước mắm pha vừa ăn, phục vụ nhanh và thân thiện.",
+        "date": "5 ngày trước"
+    },
+    {
+        "name": "Phạm Quốc Bảo",
+        "rating": 4,
+        "content": "Quán có nhiều lựa chọn từ cơm tấm đến cơm Hàn, ăn trưa rất tiện. Giá ổn, khẩu phần khá nhiều, chỉ hơi nóng khi quán đông khách.",
+        "date": "2 tuần trước"
     }
 ]

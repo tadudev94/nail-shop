@@ -1,56 +1,106 @@
 [
     {
-        "category": "Chăm sóc móng",
+        "category": "Món Nước & Ăn Nhẹ",
         "items": [
             {
-                "name": "Cắt da tay/chân",
+                "name": "Súp Kim Chi",
+                "price": "55.000đ",
+                "description": "Súp kim chi cay nhẹ, đậu hũ và rau củ kiểu Hàn."
+            },
+            {
+                "name": "Súp Rong Biển",
+                "price": "55.000đ",
+                "description": "Canh rong biển thanh mát, dễ ăn."
+            },
+            {
+                "name": "Tokbokki",
+                "price": "55.000đ - 70.000đ",
+                "description": "Bánh gạo Hàn Quốc sốt cay, ăn kèm trứng và chả cá."
+            },
+            {
+                "name": "Mì Hàn Quốc",
+                "price": "45.000đ - 60.000đ",
+                "description": "Mì nước Hàn Quốc cay nhẹ, có trứng."
+            },
+            {
+                "name": "Bánh Cuốn Tây Sơn",
+                "price": "20.000đ",
+                "description": "Bánh cuốn mềm, ăn kèm nước chấm."
+            }
+        ]
+    },
+    {
+        "category": "Cơm & Mì Hàn Quốc",
+        "items": [
+            {
+                "name": "Cơm Sườn Cong",
                 "price": "50.000đ",
-                "description": "Làm sạch da thừa, tạo form móng gọn gàng."
+                "description": "Cơm trắng ăn kèm sườn nướng cong đặc trưng."
             },
             {
-                "name": "Sơn Gel trơn",
-                "price": "150.000đ",
-                "description": "Sơn gel cao cấp, bền màu 3-4 tuần, nhiều màu lựa chọn."
+                "name": "Cơm Sườn Miếng",
+                "price": "40.000đ",
+                "description": "Cơm sườn miếng đơn giản, dễ ăn."
             },
             {
-                "name": "Sơn Gel mắt mèo",
-                "price": "200.000đ",
-                "description": "Hiệu ứng mắt mèo lấp lánh, sang trọng."
+                "name": "Cơm Ba Rọi Ướp",
+                "price": "60.000đ",
+                "description": "Ba rọi ướp sốt Hàn ăn cùng cơm nóng."
+            },
+            {
+                "name": "Mì Tương Đen",
+                "price": "70.000đ",
+                "description": "Mì jajangmyeon sốt đậu đen chuẩn vị Hàn."
+            },
+            {
+                "name": "Miến Xào Hàn Quốc",
+                "price": "60.000đ - 120.000đ",
+                "description": "Miến khoai lang xào rau củ và thịt."
+            },
+            {
+                "name": "Cơm Trộn Hàn Quốc",
+                "price": "60.000đ",
+                "description": "Cơm trộn rau củ, thịt, trứng và sốt gochujang."
+            },
+            {
+                "name": "Kimbap",
+                "price": "50.000đ",
+                "description": "Cơm cuộn rong biển nhân rau củ và thịt."
             }
         ]
     },
     {
-        "category": "Art & Design",
+        "category": "Set Nướng & Món Đặc Biệt",
         "items": [
             {
-                "name": "Vẽ móng nghệ thuật",
-                "price": "Từ 20.000đ/ngón",
-                "description": "Vẽ hoa, hoạt hình, họa tiết theo yêu cầu."
-            },
-            {
-                "name": "Đính đá/Charm",
-                "price": "Từ 10.000đ/viên",
-                "description": "Đá sáng, charm nơ, bướm, gấu đa dạng."
-            },
-            {
-                "name": "Ẩn xà cừ/Hoa khô",
-                "price": "15.000đ/ngón",
-                "description": "Tạo độ sâu và vẻ đẹp tinh tế cho móng."
-            }
-        ]
-    },
-    {
-        "category": "Spa & Dưỡng",
-        "items": [
-            {
-                "name": "Chà gót chân",
-                "price": "150.000đ",
-                "description": "Loại bỏ da chết, giúp gót chân hồng hào, mềm mại."
-            },
-            {
-                "name": "Paraffin tay/chân",
+                "name": "Set Sườn Hàn Nướng",
                 "price": "200.000đ",
-                "description": "Ủ sáp nóng giúp mềm da, giảm đau khớp."
+                "description": "Sườn heo ướp kiểu Hàn, ăn kèm rau và panchan."
+            },
+            {
+                "name": "Set Ba Rọi Sườn Ướp Nướng",
+                "price": "250.000đ",
+                "description": "Ba rọi và sườn nướng đậm đà, phù hợp đi nhóm."
+            },
+            {
+                "name": "Set Bò Một Nắng Nướng",
+                "price": "340.000đ",
+                "description": "Bò một nắng nướng ăn kèm rau sống."
+            },
+            {
+                "name": "Chân Gà Cay",
+                "price": "155.000đ",
+                "description": "Chân gà cay Hàn Quốc, ăn lai rai."
+            },
+            {
+                "name": "Bạch Tuộc / Thịt Heo Xào Cay",
+                "price": "100.000đ - 150.000đ",
+                "description": "Bạch tuộc hoặc thịt heo xào cay kiểu Hàn."
+            },
+            {
+                "name": "Soda",
+                "price": "27.000đ",
+                "description": "Các loại soda giải khát."
             }
         ]
     }

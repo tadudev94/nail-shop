@@ -10,7 +10,7 @@ export function GalleryGrid() {
             <div className="container px-4 mx-auto">
                 <div className="text-center mb-16 space-y-4">
                     <h2 className="text-4xl md:text-5xl font-bold font-heading">Thư viện ảnh</h2>
-                    <p className="text-muted-foreground">Những tác phẩm đẹp nhất của chúng tôi</p>
+                    <p className="text-muted-foreground">Những món ăn đặc sắc nhất của chúng tôi</p>
                 </div>
 
                 <div className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4 px-4">

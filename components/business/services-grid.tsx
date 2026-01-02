@@ -34,12 +34,12 @@ export function ServicesGrid() {
                             </CardHeader>
                             <CardContent className="space-y-6 pt-6">
                                 {category.items.map((item, itemIdx) => (
-                                    <div key={itemIdx} className="flex justify-between items-start group">
-                                        <div className="space-y-1">
-                                            <div className="font-medium text-lg group-hover:text-primary transition-colors">{item.name}</div>
-                                            <div className="text-sm text-muted-foreground line-clamp-2">{item.description}</div>
+                                    <div key={itemIdx} className="flex justify-between items-baseline group border-b border-dashed border-muted-foreground/20 pb-2 last:border-0 last:pb-0">
+                                        <div className="space-y-1 relative pr-4 flex-1">
+                                            <div className="font-bold text-lg group-hover:text-primary transition-colors font-serif">{item.name}</div>
+                                            <div className="text-sm text-muted-foreground line-clamp-2 italic">{item.description}</div>
                                         </div>
-                                        <div className="font-bold text-lg whitespace-nowrap pl-4">{item.price}</div>
+                                        <div className="font-bold text-lg whitespace-nowrap text-primary">{item.price}</div>
                                     </div>
                                 ))}
                             </CardContent>
